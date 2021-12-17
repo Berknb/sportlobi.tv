@@ -12,6 +12,7 @@ export default function Navbar() {
     return (
         <>
         <header>
+        <Userpanel/>
             <nav className={styles.nav}>
             <div className={styles.logo}>
             <Link href="/" passHref><Image src={Logo} alt="logo"/></Link>
@@ -21,7 +22,6 @@ export default function Navbar() {
                 <li><Link href="MyList">Listem</Link></li>
                 <li><Link href="Program">Günün programı</Link></li>
                 <li><Link href="Kayit">Kayıt ol</Link></li>
-                <li><Userpanel/></li>
                 
             </ul>
             </nav>
