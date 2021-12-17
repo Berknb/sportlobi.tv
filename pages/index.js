@@ -1,5 +1,5 @@
-import styles from '../styles/index.module.css'
-import Image from 'next/image'
+import styles from '../styles/index.module.css';
+import Image from 'next/image';
 import Tv from '../images/television.png';
 export default function index() {
     return (

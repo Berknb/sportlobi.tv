@@ -1,6 +1,6 @@
 import { useState,useEffect } from 'react';
 import styles from '../styles/Program.module.css'
-import { useAuth } from '../firebase/ClientApp'
+import { useAuth } from '../firebase/ClientApp';
 
 export default function Program() {
   const currentUser = useAuth();

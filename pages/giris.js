@@ -1,8 +1,8 @@
-import React from 'react'
-import { logout, login ,useAuth} from '../firebase/ClientApp'
-import { useRef, useState } from 'react'
-import styles from "../styles/Kayit.module.css"
-import Link from 'next/link'
+import React from 'react';
+import { logout, login ,useAuth} from '../firebase/ClientApp';
+import { useRef, useState } from 'react';
+import styles from "../styles/Kayit.module.css";
+import Link from 'next/link';
 
 
 

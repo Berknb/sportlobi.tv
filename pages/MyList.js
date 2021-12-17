@@ -1,10 +1,10 @@
 import { useEffect,useState } from 'react';
 import { useAuth } from '../firebase/ClientApp';
 import Image from 'next/image';
-import Basket from '../images/basket.jpg'
-import Futbol from '../images/futbol.jpg'
-import Tenis from '../images/tenis.jpg'
-import Motor from '../images/motor.jpg'
+import Basket from '../images/basket.jpg';
+import Futbol from '../images/futbol.jpg';
+import Tenis from '../images/tenis.jpg';
+import Motor from '../images/motor.jpg';
 
 export default function MyList() {
 
