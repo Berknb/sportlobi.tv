@@ -14,7 +14,7 @@ export default function Navbar() {
         <header>
             <nav className={styles.nav}>
             <div className={styles.logo}>
-            <Link href="/"><Image src={Logo} alt="logo"/></Link>
+            <Link href="/" passHref><Image src={Logo} alt="logo"/></Link>
             </div>
             <ul>
                 <li><Link href="/">Ana sayfa</Link></li>
