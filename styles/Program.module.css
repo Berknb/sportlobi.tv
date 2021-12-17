@@ -1,0 +1,83 @@
+.frameData{
+    float: left;
+    min-height: 50rem;
+    width: 50%;
+}
+.addwatch{
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 50%;
+}
+.card{
+    height: 20rem;
+    margin-top: 1rem;
+    width: 70%;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #FAFAFA;
+}
+.card input{
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0.7rem;
+}
+.card input:nth-child(6){
+width: 5.3rem;
+}
+.card input:nth-child(8){
+    height: 15px;
+    width: 1rem;
+    }
+.card label{
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+}
+.card p{
+    font-size: 13px;
+    background-color: #EFEFF5;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    width: 4rem;
+    height: 2.2rem;
+    cursor: pointer;
+    background-color: #77002e;
+    color: #fff;
+    border: 1px solid #77002e;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+.submit button:hover{
+background-color: #A50E48;
+}
+.submit button:active{
+    background-color: #A50E48;
+    box-shadow: 0 5px #666;
+  transform: translateY(2px);
+    }
+    @media screen and (max-width:700px) {
+        .frameData{
+            min-height: 23rem;
+            width: 100%;
+        }
+        .addwatch{
+            width: 100%;
+        }
+        .card{
+            margin: 0;
+        }
+        .card input{
+            display: flex;
+            height: 1.7rem;
+            font-size: 1rem;
+            margin: 0;
+        }
+    }
